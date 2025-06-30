@@ -116,7 +116,7 @@ Use cases include:
 
 ---
 
-## ❓ Getting Help
+## Getting Help
 
 Need assistance?
 
@@ -126,7 +126,7 @@ Need assistance?
 
 ---
 
-## 💬 Discussion and Development
+## Discussion and Development
 
 We take a user-first approach to feature updates and improvements.  
 Current development is driven by practical needs in:
