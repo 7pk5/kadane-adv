@@ -6,7 +6,7 @@ It serves as a practical, real-world tool for extracting meaningful patterns fro
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 - Main Features  
 - Where to Get It  
@@ -21,7 +21,7 @@ It serves as a practical, real-world tool for extracting meaningful patterns fro
 
 ---
 
-## 🚀 Main Features
+## Main Features
 
 Here are some of the key capabilities of kadane-adv:
 
@@ -45,16 +45,16 @@ Here are some of the key capabilities of kadane-adv:
 
 ---
 
-## 📦 Where to Get It
+## Where to Get It
 
 **PyPI:** https://pypi.org/project/kadane-adv/
 
-To install using pip: 
+**To install using pip:** 
 pip install kadane-adv
 
 ---
 
-## 📋 Dependencies
+##  Dependencies
 
 **Required Libraries:**
 
@@ -80,26 +80,25 @@ To install from source:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License**.  
 See `LICENSE` file for full text.
 
 ---
 
-## 📖 Documentation
+## Documentation
 
 The package includes:
 
 - Python docstrings on all functions  
 - Commented source code  
-- Example scripts in `/examples` directory
 
 Use `help(function_name)` or view the documentation via your IDE.
 
 ---
 
-## 🧠 Background
+## Background
 
 kadane-adv enhances the classic Kadane’s Algorithm with:
 
