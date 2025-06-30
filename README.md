@@ -137,7 +137,7 @@ Current development is driven by practical needs in:
 
 ---
 
-## 🤝 Contributing to kadane-adv
+## Contributing to kadane-adv
 
 Contributions are welcome! You can help with:
 
