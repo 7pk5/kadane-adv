@@ -6,7 +6,7 @@ It is an essential utility for **data analysts, researchers, and machine learnin
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 
 - [Main Features](#main-features)  
 - [Installation](#installation)  
@@ -20,7 +20,7 @@ It is an essential utility for **data analysts, researchers, and machine learnin
 
 ---
 
-## 🚀 Main Features
+##  Main Features
 
 - 🔹 **1D Maximum Subarray Detection**  
   Find the subarray with the maximum sum in linear time.
@@ -42,9 +42,9 @@ It is an essential utility for **data analysts, researchers, and machine learnin
 
 ---
 
-## 📦 Installation
+## Installation
 
-### ▶️ From PyPI
+### From PyPI
 
 You can install the library using pip:
 
@@ -52,7 +52,7 @@ You can install the library using pip:
 pip install kadane-adv
 ```
 
-### ▶️ From Source
+### From Source
 
 1. Download the source code from [PyPI](https://pypi.org/project/kadane-adv/) or GitHub.  
 2. Extract the archive and navigate to the folder.
@@ -69,7 +69,7 @@ python setup.py install
 
 ---
 
-## 📚 Dependencies
+## Dependencies
 
 ### Required:
 - `numpy` — for matrix and array operations  
@@ -82,14 +82,14 @@ python setup.py install
 
 ---
 
-## 🪪 License
+## License
 
 Licensed under the **MIT License**.  
 See the [`LICENSE`](./LICENSE) file for full text.
 
 ---
 
-## 📖 Documentation
+## Documentation
 
 - All functions are documented with Python docstrings  
 - Fully commented source code  
@@ -97,24 +97,24 @@ See the [`LICENSE`](./LICENSE) file for full text.
 
 ---
 
-## 📘 Background
+## Background
 
 While classic Kadane’s algorithm finds the maximum sum subarray in 1D, **kadane-adv** extends this by adding:
 
-- 🔸 **Multi-dimensional support** (e.g., 2D submatrices)  
-- 🔸 **Constraint-based searches** (e.g., min length)  
-- 🔸 **Visual feedback** to verify or interpret the result
+-  **Multi-dimensional support** (e.g., 2D submatrices)  
+-  **Constraint-based searches** (e.g., min length)  
+-  **Visual feedback** to verify or interpret the result
 
 ### Typical Use Cases:
-- 📈 Stock market and financial data analysis  
-- ⏱ Time series segmentation  
-- 🔊 Signal and anomaly detection  
-- 🖼 Image processing and matrix evaluation  
-- 🛰 Sensor data analysis for IoT applications
+-  Stock market and financial data analysis  
+-  Time series segmentation  
+-  Signal and anomaly detection  
+-  Image processing and matrix evaluation  
+-  Sensor data analysis for IoT applications
 
 ---
 
-## 🆘 Getting Help
+##  Getting Help
 
 - Use `help(kadane_adv.function_name)` in Python  
 - Browse built-in examples (if available)  
@@ -122,7 +122,7 @@ While classic Kadane’s algorithm finds the maximum sum subarray in 1D, **kadan
 
 ---
 
-## 💬 Discussion & Development
+##  Discussion & Development
 
 The project evolves with real-world needs in:
 
@@ -134,7 +134,7 @@ Your suggestions and use-cases are welcome!
 
 ---
 
-## 🤝 Contributing to kadane-adv
+##  Contributing to kadane-adv
 
 We welcome contributions in all forms! You can help by:
 
@@ -143,7 +143,7 @@ We welcome contributions in all forms! You can help by:
 - Improving documentation  
 - Creating real-world usage examples
 
-### 📌 Guidelines:
+###  Guidelines:
 
 - Keep changes focused and lightweight  
 - Write clear, readable, and commented code  
@@ -154,4 +154,4 @@ Let’s make this tool better — **together**!
 
 ---
 
-🔼 [Back to Top](#kadane-adv-advanced-subarray-optimization-library-for-python)
+[Back to Top](#kadane-adv-advanced-subarray-optimization-library-for-python)
