@@ -1,165 +1,157 @@
 # kadane-adv: Advanced Subarray Optimization Library for Python
 
-kadane-adv is a Python package that extends the classic Kadane’s Algorithm to support advanced use cases in 1D and 2D data analysis. Designed for performance and simplicity, it provides efficient and expressive tools for identifying optimal subarrays and submatrices from various types of data—be it time series, financial data, sensor logs, or image matrices.
+**kadane-adv** is a Python package that extends the classic Kadane’s Algorithm to support advanced use cases in 1D and 2D data analysis. Designed for performance and simplicity, it provides efficient tools to identify optimal subarrays and submatrices across diverse datasets—time series, financial data, sensor logs, or image matrices.
 
-It serves as a practical, real-world tool for extracting meaningful patterns from data, making it an essential utility for data analysts, researchers, and machine learning developers.
-
----
-
-## Table of Contents
-
-- Main Features  
-- Where to Get It  
-- Dependencies  
-- Installation from Sources  
-- License  
-- Documentation  
-- Background  
-- Getting Help  
-- Discussion and Development  
-- Contributing to kadane-adv
+It is an essential utility for **data analysts, researchers, and machine learning developers** seeking meaningful patterns in structured data.
 
 ---
 
-## Main Features
+## 📑 Table of Contents
 
-Here are some of the key capabilities of kadane-adv:
-
-- **1D Maximum Subarray Detection**  
-  Find the subarray with the highest sum in linear time.
-
-- **2D Maximum Submatrix Detection**  
-  Extend the algorithm to rectangular regions of 2D matrices.
-
-- **Constrained Optimization**  
-  Extract optimal subarrays with minimum length or other constraints.
-
-- **Built-in Visualization**  
-  Instantly visualize the identified optimal subarray within the original data.
-
-- **Integration with NumPy and Pandas**  
-  Use your existing NumPy arrays or Pandas DataFrames directly.
-
-- **Real-world Applications**  
-  Financial trend analysis, signal segmentation, sensor data analysis, image processing.
+- [Main Features](#main-features)  
+- [Installation](#installation)  
+- [Dependencies](#dependencies)  
+- [License](#license)  
+- [Documentation](#documentation)  
+- [Background](#background)  
+- [Getting Help](#getting-help)  
+- [Discussion & Development](#discussion--development)  
+- [Contributing](#contributing-to-kadane-adv)
 
 ---
 
-## Where to Get It
+## 🚀 Main Features
 
-**PyPI:** https://pypi.org/project/kadane-adv/
+- 🔹 **1D Maximum Subarray Detection**  
+  Find the subarray with the maximum sum in linear time.
 
-**To install using pip:** 
+- 🔹 **2D Maximum Submatrix Detection**  
+  Extend Kadane’s algorithm to rectangular regions in 2D matrices.
+
+- 🔹 **Constrained Optimization**  
+  Support for constraints such as minimum subarray length.
+
+- 🔹 **Built-in Visualization**  
+  Visual representation of the detected optimal regions.
+
+- 🔹 **Integration with NumPy & Pandas**  
+  Supports direct use of NumPy arrays and Pandas DataFrames.
+
+- 🔹 **Real-world Applications**  
+  Use it in financial trend analysis, signal processing, sensor logs, and image matrix optimization.
+
+---
+
+## 📦 Installation
+
+### ▶️ From PyPI
+
+You can install the library using pip:
+
+```bash
 pip install kadane-adv
+```
+
+### ▶️ From Source
+
+1. Download the source code from [PyPI](https://pypi.org/project/kadane-adv/) or GitHub.  
+2. Extract the archive and navigate to the folder.
+
+```bash
+cd kadane-adv
+```
+
+3. Run the setup script:
+
+```bash
+python setup.py install
+```
 
 ---
 
-##  Dependencies
+## 📚 Dependencies
 
-**Required Libraries:**
+### Required:
+- `numpy` — for matrix and array operations  
+- `matplotlib` — for visualizations
 
-- `NumPy`: For array and matrix operations  
-- `Matplotlib`: For visualization  
+### Optional:
+- `pandas` — for seamless DataFrame integration
 
-**Optional:**
-
-- `Pandas`: For seamless DataFrame integration
-
-Check `requirements.txt` for exact version specifications.
+> Exact versions can be found in the `requirements.txt` file.
 
 ---
 
-## 🛠 Installation from Sources
+## 🪪 License
 
-To install from source:
-
-1. Download the source package (.zip or .tar.gz) from PyPI or a trusted mirror.  
-2. Extract the contents and navigate to the project directory.  
-3. Run the following command:
-
+Licensed under the **MIT License**.  
+See the [`LICENSE`](./LICENSE) file for full text.
 
 ---
 
-##  License
+## 📖 Documentation
 
-This project is licensed under the **MIT License**.  
-See `LICENSE` file for full text.
-
----
-
-## Documentation
-
-The package includes:
-
-- Python docstrings on all functions  
-- Commented source code  
-
-Use `help(function_name)` or view the documentation via your IDE.
+- All functions are documented with Python docstrings  
+- Fully commented source code  
+- Use the built-in `help()` function or your IDE's documentation viewer
 
 ---
 
-## Background
+## 📘 Background
 
-kadane-adv enhances the classic Kadane’s Algorithm with:
+While classic Kadane’s algorithm finds the maximum sum subarray in 1D, **kadane-adv** extends this by adding:
 
-- Multi-dimensional support (2D submatrices)  
-- Optimization constraints like minimum length  
-- Visualization for rapid insights  
+- 🔸 **Multi-dimensional support** (e.g., 2D submatrices)  
+- 🔸 **Constraint-based searches** (e.g., min length)  
+- 🔸 **Visual feedback** to verify or interpret the result
 
-Use cases include:
-
-- Financial and stock data analysis  
-- Time series segmentation  
-- Signal processing and anomaly detection  
-- Image matrix scanning  
-- IoT and sensor data insights
-
----
-
-## Getting Help
-
-Need assistance?
-
-- Refer to docstrings in the code  
-- Try the provided examples  
-- Check the GitHub Issues page (link to be added)
+### Typical Use Cases:
+- 📈 Stock market and financial data analysis  
+- ⏱ Time series segmentation  
+- 🔊 Signal and anomaly detection  
+- 🖼 Image processing and matrix evaluation  
+- 🛰 Sensor data analysis for IoT applications
 
 ---
 
-## Discussion and Development
+## 🆘 Getting Help
 
-We take a user-first approach to feature updates and improvements.  
-Current development is driven by practical needs in:
-
-- Data science and ML workflows  
-- Signal and sensor analysis  
-- Academic research and data exploration  
+- Use `help(kadane_adv.function_name)` in Python  
+- Browse built-in examples (if available)  
+- Open an issue on the GitHub repo (link to be added)
 
 ---
 
-## Contributing to kadane-adv
+## 💬 Discussion & Development
 
-Contributions are welcome! You can help with:
+The project evolves with real-world needs in:
 
-- Bug fixes  
-- Feature enhancements  
-- Use-case examples  
-- Better documentation
+- Data Science & ML workflows  
+- Financial and signal analysis  
+- Academic & exploratory research
 
-**Contribution Guidelines:**
-
-- Write clear, well-commented code  
-- Stick to lightweight and focused changes  
-- Add docstrings to any new functions  
-- Open a pull request on GitHub
-
-Respectful and practical contributions build this project. Let's collaborate!
+Your suggestions and use-cases are welcome!
 
 ---
 
-🔼 **[Back to Top](#kadane-adv-advanced-subarray-optimization-library-for-python)**
+## 🤝 Contributing to kadane-adv
 
+We welcome contributions in all forms! You can help by:
 
+- Fixing bugs  
+- Adding new features  
+- Improving documentation  
+- Creating real-world usage examples
 
+### 📌 Guidelines:
 
+- Keep changes focused and lightweight  
+- Write clear, readable, and commented code  
+- Use docstrings for new functions  
+- Submit a pull request (PR) with a clear description
 
+Let’s make this tool better — **together**!
+
+---
+
+🔼 [Back to Top](#kadane-adv-advanced-subarray-optimization-library-for-python)
