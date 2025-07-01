@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="your-library-name",
+    name="kadane-adv",
     version="0.1.1",  # BUMP THIS!
     author="Parimal Kalpande , Krunal Wankhade",
     description="About An advanced Python library implementing Kadane’s Algorithm with support for 1D & 2D arrays, visualization, subarray constraints, and test coverage. Perfect for data analysis, time-series problems, and algorithm enthusiasts.",
